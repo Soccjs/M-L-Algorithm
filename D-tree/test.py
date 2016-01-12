@@ -24,8 +24,8 @@ def calc_shannon_ent(label):
 
 
 label1 = ["shine", "rain", "shine", "rain","cloud","cloud"] 
-label2 = ["shine", "shine","rain","rain","rain","shine"]    #label2's entropy less than label1's thing
-            
+label2 = ["shine", "shine","rain","rain","rain","shine"] 
+#label2's entropy less than label1's thing
 c1 = calc_shannon_ent(label1)       #1.5~~
 c2 = calc_shannon_ent(label2)       #1.0
 
