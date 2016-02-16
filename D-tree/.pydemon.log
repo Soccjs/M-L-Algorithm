@@ -1,0 +1,905 @@
+T: 2016-01-06 20:52:54 #1 Log
+/bin/sh: 1: test.py: not found
+T: 2016-01-06 20:53:34 #2 Log
+/bin/sh: 1: test.py: not found
+T: 2016-01-06 20:54:24 #3 Log
+/bin/sh: 1: test.py: not found
+T: 2016-01-06 20:54:41 #4 Log
+/bin/sh: 1: ./test.py: Permission denied
+T: 2016-01-06 20:54:53 #5 Log
+/bin/sh: 1: ./test.py: Permission denied
+T: 2016-01-06 20:55:14 #6 Log
+/bin/sh: 1: ./test.py: Permission denied
+T: 2016-01-06 20:55:52 #7 Log
+/bin/sh: 1: ./test.py: Permission denied
+T: 2016-01-06 20:55:59 #8 Log
+/bin/sh: 1: ./test.py: Permission denied
+T: 2016-01-12 21:31:09 #9 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+6
+{'shine': 3, 'rain': 3}
+1.58496250072
+1.0
+T: 2016-01-12 21:31:33 #10 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+6
+{'shine': 3, 'rain': 3}
+1.58496250072
+1.0
+T: 2016-01-12 21:44:06 #11 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+6
+{'shine': 3, 'rain': 3}
+1.58496250072
+1.0
+T: 2016-01-12 21:44:23 #12 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+6
+{'shine': 3, 'rain': 3}
+1.58496250072
+1.0
+T: 2016-01-12 21:45:09 #13 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+6
+{'shine': 3, 'rain': 3}
+1.58496250072
+1.0
+T: 2016-01-12 21:45:20 #14 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+6
+{'shine': 3, 'rain': 3}
+1.58496250072
+1.0
+T: 2016-01-12 21:45:33 #15 Log
+5
+T: 2016-01-12 21:45:38 #16 Log
+5
+T: 2016-01-12 21:48:45 #17 Log
+5
+T: 2016-01-12 21:49:19 #18 Log
+  File "./test2.py", line 27
+    1calc_shannon_ent(sagim)
+                    ^
+SyntaxError: invalid syntax
+T: 2016-01-12 21:49:34 #19 Log
+5
+hi
+T: 2016-01-12 21:50:49 #20 Log
+5
+0.4
+0.6
+T: 2016-01-12 21:51:34 #21 Log
+5
+0.4
+Traceback (most recent call last):
+  File "./test2.py", line 32, in <module>
+    calc_shannon_ent(sagim)
+  File "./test2.py", line 29, in calc_shannon_ent
+    ent = -1 *prob * log(prob,2)
+NameError: global name 'log' is not defined
+T: 2016-01-12 21:51:48 #22 Log
+5
+0.4
+Traceback (most recent call last):
+  File "./test2.py", line 33, in <module>
+    calc_shannon_ent(sagim)
+  File "./test2.py", line 30, in calc_shannon_ent
+    ent = -1 *prob * log(prob,2)
+NameError: global name 'log' is not defined
+T: 2016-01-12 21:51:59 #23 Log
+  File "./test2.py", line 1
+    from  math import import log
+                           ^
+SyntaxError: invalid syntax
+T: 2016-01-12 21:52:17 #24 Log
+5
+0.4
+0.6
+0.970950594455
+T: 2016-01-12 21:53:11 #25 Log
+5
+0.4
+0.6
+0.970950594455
+0.970950594455
+T: 2016-01-12 21:58:39 #26 Log
+5
+0.4
+0.6
+0.970950594455
+0.970950594455
+T: 2016-02-02 20:52:50 #27 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+Traceback (most recent call last):
+  File "test.py", line 68, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 32, in create_tree
+    count_cols = len(mat_data[0]);
+NameError: global name 'mat_data' is not defined
+T: 2016-02-02 20:53:12 #28 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+Traceback (most recent call last):
+  File "test.py", line 68, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 32, in create_tree
+    count_cols = len(mat_data[0]);
+NameError: global name 'mat_data' is not defined
+T: 2016-02-02 20:54:33 #29 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+[1, 2, 2, 2, 1, 2]
+[2, 0, 2, 1, 0, 0]
+[0, 2, 1, 2, 0, 1]
+[2, 1, 2, 0, 1, 1]
+[0, 2, 0, 2, 1, 1]
+T: 2016-02-02 20:55:04 #30 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+set([1, 2])
+set([0, 1, 2])
+set([0, 1, 2])
+set([0, 1, 2])
+set([0, 1, 2])
+T: 2016-02-02 21:01:55 #31 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 75, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 40, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+NameError: global name 'split_data' is not defined
+T: 2016-02-02 21:02:05 #32 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 75, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 40, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+NameError: global name 'split_data' is not defined
+T: 2016-02-02 21:06:10 #33 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 85, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 48, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+NameError: global name 'split_data' is not defined
+T: 2016-02-02 21:06:27 #34 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 85, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 49, in create_tree
+    probability = len(split_label)/float(len(label_data))
+NameError: global name 'split_label' is not defined
+T: 2016-02-02 21:06:36 #35 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 85, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 49, in create_tree
+    probability = len(split_label)/float(len(label_data))
+NameError: global name 'split_label' is not defined
+T: 2016-02-02 21:06:51 #36 Log
+  File "test.py", line 52
+    if  lowest_ent > branch_ent :
+     ^
+IndentationError: expected an indented block
+T: 2016-02-02 21:07:00 #37 Log
+  File "test.py", line 52
+    if lowest_ent > branch_ent :
+     ^
+IndentationError: expected an indented block
+T: 2016-02-02 21:07:07 #38 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+1
+set([0, 1, 2])
+2
+set([0, 1, 2])
+3
+set([0, 1, 2])
+4
+set([0, 1, 2])
+T: 2016-02-02 21:10:00 #39 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+1
+set([0, 1, 2])
+2
+set([0, 1, 2])
+3
+set([0, 1, 2])
+4
+set([0, 1, 2])
+Traceback (most recent call last):
+  File "test.py", line 96, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 63, in create_tree
+    uniq_val = set(best_col);
+TypeError: 'int' object is not iterable
+T: 2016-02-02 21:11:47 #40 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+1
+set([0, 1, 2])
+2
+set([0, 1, 2])
+3
+set([0, 1, 2])
+4
+set([0, 1, 2])
+Traceback (most recent call last):
+  File "test.py", line 102, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 63, in create_tree
+    uniq_val = set(best_col);
+TypeError: 'int' object is not iterable
+T: 2016-02-02 21:12:20 #41 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 102, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 48, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+NameError: global name 'split_data' is not defined
+T: 2016-02-02 21:29:26 #42 Log
+  File "test.py", line 44
+    def create_tree(label_data, matrix_data):
+      ^
+IndentationError: expected an indented block
+T: 2016-02-02 21:35:58 #43 Log
+  File "test.py", line 46
+    if row[col] == uniq
+                      ^
+SyntaxError: invalid syntax
+T: 2016-02-02 21:36:17 #44 Log
+  File "test.py", line 58
+    if len(matrix_data[0]) ==  0 or (len(matrix_data[0]) == 1 and len(set(row[0]) for row in matrix_data)==1:
+                                                                                                            ^
+SyntaxError: invalid syntax
+T: 2016-02-02 21:38:45 #45 Log
+  File "test.py", line 58
+    if len(matrix_data[0]) ==  0 or (len(matrix_data[0]) == 1 and len(set(row[0]) for row in matrix_data)==1:
+                                                                                                            ^
+SyntaxError: invalid syntax
+T: 2016-02-02 21:39:27 #46 Log
+  File "test.py", line 81
+    branch_ent += probability * calc_shannon_ent(split_label)        
+             ^
+SyntaxError: invalid syntax
+T: 2016-02-02 21:39:41 #47 Log
+  File "test.py", line 81
+    branch_ent += probability * calc_shannon_ent(split_label)        
+             ^
+SyntaxError: invalid syntax
+T: 2016-02-02 21:39:53 #48 Log
+  File "test.py", line 81
+    branch_ent += probability * calc_shannon_ent(split_label)        
+             ^
+SyntaxError: invalid syntax
+T: 2016-02-02 21:40:41 #49 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+0
+{}
+0
+{}
+1
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+2
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+3
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+4
+set([0, 1, 2])
+Traceback (most recent call last):
+  File "test.py", line 134, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 46, in split_data
+    if row[col] == uniq :
+IndexError: string index out of range
+T: 2016-02-02 21:41:12 #50 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+1
+1
+1
+1
+1
+1
+0
+{}
+2
+2
+2
+2
+2
+2
+0
+{}
+1
+set([0, 1, 2])
+0
+0
+0
+0
+0
+0
+0
+{}
+1
+1
+1
+1
+1
+1
+0
+{}
+2
+2
+2
+2
+2
+2
+0
+{}
+2
+set([0, 1, 2])
+0
+0
+0
+0
+0
+0
+0
+{}
+1
+1
+1
+1
+1
+1
+0
+{}
+2
+2
+2
+2
+2
+2
+0
+{}
+3
+set([0, 1, 2])
+0
+0
+0
+0
+0
+0
+0
+{}
+1
+1
+1
+1
+1
+1
+0
+{}
+2
+2
+2
+2
+2
+2
+0
+{}
+4
+set([0, 1, 2])
+0
+0
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 80, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 47, in split_data
+    if row[col] == uniq :
+IndexError: string index out of range
+T: 2016-02-02 21:42:37 #51 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+0
+{}
+0
+{}
+1
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+2
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+3
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+4
+set([0, 1, 2])
+Traceback (most recent call last):
+  File "test.py", line 136, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 46, in split_data
+    if row[col] == uniq :
+IndexError: string index out of range
+T: 2016-02-02 21:42:46 #52 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+0
+{}
+0
+{}
+1
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+2
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+3
+set([0, 1, 2])
+0
+{}
+0
+{}
+0
+{}
+4
+set([0, 1, 2])
+Traceback (most recent call last):
+  File "test.py", line 136, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 46, in split_data
+    if row[col] == uniq :
+IndexError: string index out of range
+T: 2016-02-02 21:42:56 #53 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 136, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 48, in split_data
+    temp.expend(col[col+1])
+AttributeError: 'list' object has no attribute 'expend'
+T: 2016-02-02 21:43:12 #54 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set(['s', 'r', 'c'])
+Traceback (most recent call last):
+  File "test.py", line 136, in <module>
+    create_tree(label1, matrix_data);
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 48, in split_data
+    temp.expend(col[col+1])
+AttributeError: 'str' object has no attribute 'expend'
+T: 2016-02-02 21:43:29 #55 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 136, in <module>
+    create_tree( matrix_data,label1);
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 48, in split_data
+    temp.expend(col[col+1])
+AttributeError: 'list' object has no attribute 'expend'
+T: 2016-02-02 21:44:49 #56 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 134, in <module>
+    create_tree(matrix_data,label1);
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 48, in split_data
+    temp.expend(col[col+1])
+AttributeError: 'list' object has no attribute 'expend'
+T: 2016-02-02 21:44:59 #57 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 134, in <module>
+    create_tree(matrix_data,label1)
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 48, in split_data
+    temp.expend(col[col+1])
+AttributeError: 'list' object has no attribute 'expend'
+T: 2016-02-02 21:45:03 #58 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+0
+set([1, 2])
+Traceback (most recent call last):
+  File "test.py", line 134, in <module>
+    create_tree(matrix_data,label1)
+  File "test.py", line 79, in create_tree
+    split_data(matrix_data, label_data, i, uniq)
+  File "test.py", line 48, in split_data
+    temp.expend(col[col+1])
+AttributeError: 'list' object has no attribute 'expend'
+T: 2016-02-02 21:47:36 #59 Log
+  File "test.py", line 29
+SyntaxError: Non-ASCII character '\xec' in file test.py on line 29, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+T: 2016-02-02 21:48:26 #60 Log
+  File "test.py", line 49
+SyntaxError: Non-ASCII character '\xeb' in file test.py on line 49, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+T: 2016-02-02 21:48:43 #61 Log
+  File "test.py", line 78
+SyntaxError: Non-ASCII character '\xeb' in file test.py on line 78, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+T: 2016-02-02 21:48:53 #62 Log
+hello soccjs
+calc shannon entropy
+6
+{'shine': 2, 'cloud': 2, 'rain': 2}
+1.58496250072
+set([1, 2])
+2
+{'shine': 1, 'cloud': 1}
+4
+{'shine': 1, 'cloud': 1, 'rain': 2}
+set([0, 1, 2])
+3
+{'cloud': 2, 'rain': 1}
+1
+{'rain': 1}
+2
+{'shine': 2}
+set([0, 1, 2])
+2
+{'shine': 1, 'cloud': 1}
+2
+{'shine': 1, 'cloud': 1}
+2
+{'rain': 2}
+set([0, 1, 2])
+1
+{'rain': 1}
+3
+{'cloud': 2, 'rain': 1}
+2
+{'shine': 2}
+set([0, 1, 2])
+2
+{'shine': 2}
+2
+{'cloud': 2}
+2
+{'rain': 2}
+T: 2016-02-02 21:50:13 #63 Log
+hello soccjs
+calc shannon entropy
+start
+set([1, 2])
+2
+{'shine': 1, 'cloud': 1}
+4
+{'shine': 1, 'cloud': 1, 'rain': 2}
+set([0, 1, 2])
+3
+{'cloud': 2, 'rain': 1}
+1
+{'rain': 1}
+2
+{'shine': 2}
+set([0, 1, 2])
+2
+{'shine': 1, 'cloud': 1}
+2
+{'shine': 1, 'cloud': 1}
+2
+{'rain': 2}
+set([0, 1, 2])
+1
+{'rain': 1}
+3
+{'cloud': 2, 'rain': 1}
+2
+{'shine': 2}
+set([0, 1, 2])
+2
+{'shine': 2}
+2
+{'cloud': 2}
+2
+{'rain': 2}
+T: 2016-02-02 21:51:16 #64 Log
+hello soccjs
+calc shannon entropy
+start
+2
+{'shine': 1, 'cloud': 1}
+4
+{'shine': 1, 'cloud': 1, 'rain': 2}
+3
+{'cloud': 2, 'rain': 1}
+1
+{'rain': 1}
+2
+{'shine': 2}
+2
+{'shine': 1, 'cloud': 1}
+2
+{'shine': 1, 'cloud': 1}
+2
+{'rain': 2}
+1
+{'rain': 1}
+3
+{'cloud': 2, 'rain': 1}
+2
+{'shine': 2}
+2
+{'shine': 2}
+2
+{'cloud': 2}
+2
+{'rain': 2}
+T: 2016-02-02 21:52:10 #65 Log
+hello soccjs
+calc shannon entropy
+start
+2
+{'shine': 1, 'cloud': 1}
+4
+{'shine': 1, 'cloud': 1, 'rain': 2}
+3
+{'cloud': 2, 'rain': 1}
+1
+{'rain': 1}
+2
+{'shine': 2}
+2
+{'shine': 1, 'cloud': 1}
+2
+{'shine': 1, 'cloud': 1}
+2
+{'rain': 2}
+1
+{'rain': 1}
+3
+{'cloud': 2, 'rain': 1}
+2
+{'shine': 2}
+2
+{'shine': 2}
+2
+{'cloud': 2}
+2
+{'rain': 2}
+T: 2016-02-02 21:52:38 #66 Log
+hello soccjs
+calc shannon entropy
+start
+{'shine': 1, 'cloud': 1}
+{'shine': 1, 'cloud': 1, 'rain': 2}
+{'cloud': 2, 'rain': 1}
+{'rain': 1}
+{'shine': 2}
+{'shine': 1, 'cloud': 1}
+{'shine': 1, 'cloud': 1}
+{'rain': 2}
+{'rain': 1}
+{'cloud': 2, 'rain': 1}
+{'shine': 2}
+{'shine': 2}
+{'cloud': 2}
+{'rain': 2}
+T: 2016-02-02 21:54:14 #67 Log
+hello soccjs
+calc shannon entropy
+start
+{'shine': 1, 'cloud': 1}
+{'shine': 1, 'cloud': 1, 'rain': 2}
+{'cloud': 2, 'rain': 1}
+{'rain': 1}
+{'shine': 2}
+{'shine': 1, 'cloud': 1}
+{'shine': 1, 'cloud': 1}
+{'rain': 2}
+{'rain': 1}
+{'cloud': 2, 'rain': 1}
+{'shine': 2}
+{'shine': 2}
+{'cloud': 2}
+{'rain': 2}
+{4: {0: 'shine', 1: 'cloud', 2: 'rain'}}
+T: 2016-02-02 21:54:31 #68 Log
+hello soccjs
+calc shannon entropy
+start
+{4: {0: 'shine', 1: 'cloud', 2: 'rain'}}
+T: 2016-02-02 21:54:36 #69 Log
+hello soccjs
+calc shannon entropy
+start
+{4: {0: 'shine', 1: 'cloud', 2: 'rain'}}

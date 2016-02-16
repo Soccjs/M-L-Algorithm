@@ -1,0 +1,9 @@
+{
+    "ignore_postfix": [
+        ".swp", 
+        ".log", 
+        ".git", 
+        ".dat"
+    ], 
+    "run_count": 17
+}
